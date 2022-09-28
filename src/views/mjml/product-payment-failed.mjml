@@ -1,0 +1,41 @@
+<mjml>
+  <mj-head>
+
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" />
+
+    <mj-attributes>
+      <mj-all font-family="Montserrat" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body>
+
+    <mj-column width= "100%">
+      <mj-image src="https://res.cloudinary.com/a244341167/image/upload/v1658933551/BBWE/logo/Add_a_heading_q3mcyh.png" />
+    </mj-column>
+
+
+
+    <mj-section>
+
+      <mj-column>
+
+        <mj-text font-size="29px" font-weight="700" color="#F93975" padding-bottom="30px">
+          Payment For Product Failed!
+        </mj-text>
+
+
+        <mj-text font-size="18px" color="black" font-weight="400" line-height="27px" padding-bottom="60px">
+          Dear Customer, your BBWE subscription payment failed, click on button below to view your portal.
+        </mj-text>
+
+        <mj-button href="{{link}}" width="100%" inner-padding="25px" border-radius="90px" background-color="#F93975" font-size="22px" font-weight="500" color="#fff">
+          View Portal
+        </mj-button>
+
+      </mj-column>
+
+    </mj-section>
+  </mj-body>
+</mjml>
